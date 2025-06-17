@@ -1,0 +1,39 @@
+docker run --rm -it -v $(pwd)/:/usr/src/app -p 3000:3000 node bash
+
+
+docker run -d --name [nome] -p 8080:80 --mount type=bind,source="$(pwd)"/html,target=/usr/src/app -p 3000:3000 node bash
+
+
+-v VS --mount qual a diferença entre eles
+--- o -v cria a estrutura, caso ela não exista. Já o --mount dará erro, caso a pasta não exista
+
+
+
+PATHS principais de algumas imagens:
+nginx => /usr/share/nginx/html
+
+node => /usr/src/app 
+
+
+
+
+Algumas imagens dos exercicios
+
+Golang com menos de 2MB
+dlcurado/fullcycle
+
+Nodejs app com banco MySql, acessado de um NginX
+
+dlcurado/fullcycle-docker-nodeapp
+docker build -t dlcurado/fullcycle-docker-nodeapp . -f Dockerfile.prod
+docker run -d --rm --name nodeapp -p 8080:80  --network nginxnodenet dlcurado/fullcycle-docker-nodeapp
+
+
+dlcurado/fullcycle-docker-nginx
+docker build -t dlcurado/fullcycle-docker-nginx . -f Dockerfile.prod
+docker run -d --rm --name nginx -p 8080:80  --network nginxnodenet dlcurado/fullcycle-docker-nginx
+
+
+dlcurado/fullcycle-docker-mysql
+docker build -t dlcurado/fullcycle-docker-mysql . -f Dockerfile.prod
+docker run -d --rm --name mysql -p 8080:80  --network nginxnodenet dlcurado/fullcycle-docker-mysql

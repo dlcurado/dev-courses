@@ -1,0 +1,78 @@
+## Compilação ##
+bin
+obj
+out
+
+## Dependências ##
+.db
+.suo
+.user
+.userosscache
+.sln.docstates
+
+## Logs e Dados Locais ##
+.log
+.tlog
+.vspscc
+.vssscc
+.vs
+.vscode
+
+## Sistema ##
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+## IDE e Editor ##
+.idea
+.code-workspace
+
+## Testes e Coverage ##
+TestResults
+.coverage
+.coveragexml
+.testsettings
+.vsmdi
+.vsp
+.vspx
+.sap
+.trx
+.nunit.xml
+.nunit
+coverage
+coverage.cobertura.xml
+lcov.info
+
+## Dotnet Tools ##
+tools
+
+## Arquivos Sensíveis ou Locais ##
+.env
+.env.
+.secrets.json
+
+## Pacotes (caso não queira versionar) ##
+.nupkg
+.snupkg
+
+## Docker e Containers ##
+.pid
+docker-compose.override.yml
+
+## Backup e temporários ##
+~
+.bak
+.tmp
+.temp
+.swp
+.swo
+
+## Node (se tiver algum front ou fullstack) ##
+node_modules
+dist
+build
+
+## Outros ##
+.sqlite
+.sqlite3

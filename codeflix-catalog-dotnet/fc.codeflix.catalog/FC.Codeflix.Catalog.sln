@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D619715E-FA87-4623-83E3-741642FF7287}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AD75A17B-14ED-4694-AB39-CEA36FFC254D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FC.Codeflix.Catalog.UnitTests", "tests\FC.Codeflix.Catalog.UnitTests\FC.Codeflix.Catalog.UnitTests.csproj", "{DAE78DFE-11D0-4256-8667-B49AA714707A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FC.Codeflix.Catalog.Domain", "src\FC.Codeflix.Catalog.Domain\FC.Codeflix.Catalog.Domain.csproj", "{A087D8EE-D53A-4033-B6AE-D7C3B929917B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FC.Codeflix.Catalog.Application", "src\FC.Codeflix.Catalog.Application\FC.Codeflix.Catalog.Application.csproj", "{F7E624BA-8F15-4DB4-B870-72311221711D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FC.Codeflix.Catalog.IntegrationTests", "tests\FC.Codeflix.Catalog.IntegrationTests\FC.Codeflix.Catalog.IntegrationTests.csproj", "{D7402306-8BA3-4C1E-BD2F-C54D9E7E2D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FC.Codeflix.Catalog.Infra.Data.EF", "src\FC.Codeflix.Catalog.Infra.Data.EF\FC.Codeflix.Catalog.Infra.Data.EF.csproj", "{DA3321F6-CFD4-44D0-ABA6-5F8121A803B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAE78DFE-11D0-4256-8667-B49AA714707A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE78DFE-11D0-4256-8667-B49AA714707A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE78DFE-11D0-4256-8667-B49AA714707A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE78DFE-11D0-4256-8667-B49AA714707A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A087D8EE-D53A-4033-B6AE-D7C3B929917B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A087D8EE-D53A-4033-B6AE-D7C3B929917B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A087D8EE-D53A-4033-B6AE-D7C3B929917B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A087D8EE-D53A-4033-B6AE-D7C3B929917B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E624BA-8F15-4DB4-B870-72311221711D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E624BA-8F15-4DB4-B870-72311221711D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E624BA-8F15-4DB4-B870-72311221711D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E624BA-8F15-4DB4-B870-72311221711D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7402306-8BA3-4C1E-BD2F-C54D9E7E2D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7402306-8BA3-4C1E-BD2F-C54D9E7E2D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7402306-8BA3-4C1E-BD2F-C54D9E7E2D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7402306-8BA3-4C1E-BD2F-C54D9E7E2D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3321F6-CFD4-44D0-ABA6-5F8121A803B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3321F6-CFD4-44D0-ABA6-5F8121A803B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3321F6-CFD4-44D0-ABA6-5F8121A803B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3321F6-CFD4-44D0-ABA6-5F8121A803B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAE78DFE-11D0-4256-8667-B49AA714707A} = {AD75A17B-14ED-4694-AB39-CEA36FFC254D}
+		{A087D8EE-D53A-4033-B6AE-D7C3B929917B} = {D619715E-FA87-4623-83E3-741642FF7287}
+		{F7E624BA-8F15-4DB4-B870-72311221711D} = {D619715E-FA87-4623-83E3-741642FF7287}
+		{D7402306-8BA3-4C1E-BD2F-C54D9E7E2D84} = {AD75A17B-14ED-4694-AB39-CEA36FFC254D}
+		{DA3321F6-CFD4-44D0-ABA6-5F8121A803B7} = {D619715E-FA87-4623-83E3-741642FF7287}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D982C58-68B2-451F-952F-92FF0EAF54B7}
+	EndGlobalSection
+EndGlobal

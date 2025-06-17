@@ -1,0 +1,17 @@
+Estrutura do projeto Full Cycle em .Net
+
+Aggregates (Domínios)
+- Category
+- Genre
+- Cast Member
+- Video
+
+Uses Cases (trabalhando com os aggragates)
+- API actions
+
+Application
+- Acesso aos use cases atravéz de REST
+
+
+RabbitMQ - para as mensagens
+Google Cloud Storage - Armazenamento dos vídeos
