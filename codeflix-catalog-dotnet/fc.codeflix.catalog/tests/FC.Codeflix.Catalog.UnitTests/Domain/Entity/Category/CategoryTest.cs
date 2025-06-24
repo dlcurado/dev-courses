@@ -1,6 +1,4 @@
 ﻿using FC.Codeflix.Catalog.Domain.Exceptions;
-using FluentAssertions;
-using System.Xml.Linq;
 using DomainEntity = FC.Codeflix.Catalog.Domain.Entity;
 
 namespace FC.Codeflix.Catalog.UnitTests.Domain.Entity.Category;
