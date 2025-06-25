@@ -1,7 +1,8 @@
-﻿using DotNet.Core.Simple.API.Domain.Validation;
+﻿using DotNet.Core.Simple.API.Domain.SeedWork;
+using DotNet.Core.Simple.API.Domain.Validation;
 
 namespace DotNet.Core.Simple.API.Domain.Entity;
-public class Product
+public class Product : AggregateRoot
 {
     public Product(string name, decimal salePrice)
     {
